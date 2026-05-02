@@ -1,5 +1,8 @@
 # @bundbary/chess-engine
 
+[![test](https://github.com/Bundbary/chess-engine/actions/workflows/test.yml/badge.svg)](https://github.com/Bundbary/chess-engine/actions/workflows/test.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A clean-room JavaScript chess engine with first-class **Fischer Random (Chess960)** support. Zero runtime dependencies, MIT-licensed, validated with Perft.
 
 ## Why
