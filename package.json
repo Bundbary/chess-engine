@@ -1,0 +1,23 @@
+{
+  "name": "@bundbary/chess-engine",
+  "version": "0.1.0",
+  "description": "Clean-room chess engine supporting standard chess and Fischer Random (Chess960). Zero dependencies, MIT-licensed, fully tested with Perft.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/engine.test.js test/perft.test.js",
+    "test:perft": "node --test test/perft.test.js"
+  },
+  "keywords": [
+    "chess",
+    "chess960",
+    "fischer-random",
+    "engine",
+    "move-generation"
+  ],
+  "license": "MIT",
+  "author": "Bundbary",
+  "engines": {
+    "node": ">=18"
+  }
+}
